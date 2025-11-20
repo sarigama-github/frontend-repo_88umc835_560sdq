@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Impact from './components/Impact'
+import DeviceShowcase from './components/DeviceShowcase'
+import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <DeviceShowcase />
         <Features />
         <HowItWorks />
         <Impact />
+        <FAQ />
         <CTA />
       </main>
       <footer className="border-t border-white/10 py-10 mt-10">
